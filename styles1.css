@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Racing+Sans+One&family=Raleway:wght@400;700&family=Roboto+Condensed&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+  background: #000;
+  overflow-x: hidden;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+
+
+/*------------------------------
+Navbar
+-------------------------------*/
+header{
+  display: flex;
+}
+
+
+#nav-bar{
+  background:black;
+  border-bottom: 2px solid rgb(155, 0, 0);
+  height: 148px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left:3%;
+  padding-right: 3%;
+}
+
+
+ul{
+  background: black;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-right: 10%;
+}
+
+li{
+  color: white;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 1rem;
+}
+button{
+  background: #000;
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  border-left: 2px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#contacts{
+  border-right: 2px solid white;
+  padding-right: 50px;
+}
+
+
+
+
+
+
+.logo>img{
+  width: 180px;
+}
+
+
+
+
+/*-------------------------------
+PAGE1
+--------------------------------*/
+#home{
+  background: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 4% 0 12%;
+  justify-content: center;
+}
+
+
+
+.background-img>img{
+  width: 980px;
+}
+
+
+.caption{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ bottom: 7%;
+ width: 500px;
+ align-items: center;
+ margin-right: -1vw;
+}
+
+
+.caption h1{
+  margin-top: 15px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Racing sans one;
+  font-size: 1.6rem;
+  margin-bottom: -10px;
+}
+
+
+.typer-logo img{
+  width: 500px;
+  margin-top: 20px;
+}
+
+@media all and (max-width:1300px)
+{
+  body{
+    font-size: em;
+  }
+  header{
+    display: flex;
+  }
+  
+  
+  #nav-bar{
+    background:black;
+    border-bottom: 2px solid rgb(155, 0, 0);
+    height: 148px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left:3%;
+    padding-right: 3%;
+  }
+  
+  
+  ul{
+    background: black;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin-right: 10%;
+  }
+  
+  li{
+    color: white;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  button{
+    background: #000;
+    width: max-content;
+    border: none;
+    cursor: pointer;
+    border-left: 2px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  #contacts{
+    border-right: 2px solid white;
+    padding-right: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  .logo>img{
+    width: 180px;
+  }
+  
+  
+  
+  
+  /*-------------------------------
+  PAGE1
+  --------------------------------*/
+  #home{
+    background: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 4% 0 12%;
+    justify-content: center;
+  }
+  .background-img{
+    position: absolute;
+    margin: auto;
+  }
+  
+  
+  
+  .background-img>img{
+    width: 980px;
+  }
+  
+  
+  .caption{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   bottom: 7%;
+   width: 500px;
+   align-items: center;
+   margin:auto;
+  }
+  
+  
+  .caption h1{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Racing sans one;
+    font-size: 2rem;
+  }
+  
+  
+  .typer-logo img{
+    width: 500px;
+    margin-top: 100px;
+  }
+}
+
+

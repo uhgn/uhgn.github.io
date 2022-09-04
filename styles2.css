@@ -1,0 +1,203 @@
+
+#specs-features{
+  margin-top: -10vw;
+  background-image: url(Photos/7.jpg);
+  height: 100vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  margin-bottom: -10vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  z-index: 1;
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.specs-caption{
+  position: relative;
+  bottom: 17%;
+  margin-left: -7%;
+  margin-bottom: 0;
+}
+.specs-caption h1{
+  color: white;
+  font-size: 5rem;
+  font-family: racing sans one;
+  font-weight: 800;
+}
+.specs-caption h2{
+  margin-top: 25px;
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: racing sans one;
+}
+.features-container{
+  position: relative;
+  display: flex;
+  height: max-content;
+  width: 700px;
+  top: 16%;
+  justify-content: space-between;
+}
+.features{ 
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+}
+
+.inner-border{
+  height: max-content;
+  padding: 7px 7px 5px 9px;
+  background: rgb(201, 3, 3);
+  clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+}
+
+.outer-border{
+  height: max-content;
+  background-image: linear-gradient(rgb(133, 132, 132) , white 12%, rgb(100, 100, 100));
+  padding: 7px 9px 7px 9px;
+  clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  width: max-content;
+  margin-left: 20px;
+}
+
+footer> h3{
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  text-align: center;
+  line-height: 20px;
+  font-family: Racing sans one;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+  z-index: 1;
+}
+
+footer p {
+  color: white;
+  width: 155px;
+  margin-left: 9%;
+  margin-top: 20px;
+  font-family: raleway;
+  font-size: .7rem;
+  line-height: 20px;
+}
+
+.feature{
+  width: min-content;
+}
+
+.overlay{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  background: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+@media all and (max-width:1300px){
+  #specs-features{
+    margin-top: -10vw;
+    background-image: url(/Photos/bgimage2.jpg);
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    margin-bottom: -10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+
+  }
+  .specs-caption{
+    position: relative;
+    margin: 0 auto 0 auto;
+    margin-bottom: -10vw;
+  }
+  .specs-caption h1{
+    color: white;
+    font-size: 5rem;
+    font-family: racing sans one;
+    font-weight: 800;
+  }
+  .specs-caption h2{
+    margin-top: 25px;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: racing sans one;
+  }
+  .features-container{
+    position: relative;
+    display: flex;
+    height: max-content;
+    width: 700px;
+    margin-top: -10vw;
+    justify-content: space-between;
+  }
+  .features{ 
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  }
+  
+  .inner-border{
+    height: max-content;
+    padding: 7px 7px 5px 9px;
+    background: rgb(201, 3, 3);
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  }
+  
+  .outer-border{
+    height: max-content;
+    background-image: linear-gradient(rgb(133, 132, 132) , white 12%, rgb(100, 100, 100));
+    padding: 7px 9px 7px 9px;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+    width: max-content;
+    margin-left: 20px;
+  }
+  
+  footer> h3{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    text-align: center;
+    line-height: 20px;
+    font-family: Racing sans one;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    z-index: 1;
+  }
+  
+  footer p {
+    color: white;
+    width: 155px;
+    margin-left: 9%;
+    margin-top: 20px;
+    font-family: raleway;
+    font-size: .8rem;
+    line-height: 20px;
+  }
+  
+  .feature{
+    width: min-content;
+  }
+  
+  .overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    background: black;
+    opacity: 0.6;
+    z-index: -1;
+  }
+}
